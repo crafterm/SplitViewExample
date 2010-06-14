@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>index</key>
+		<integer>21</integer>
+		<key>name</key>
+		<string>Verona</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC115207726-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-finale-three-outta-four-aint-bad/</string>
+		<key>distance</key>
+		<real>15.3</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>20</integer>
+		<key>name</key>
+		<string>Bormio → Ponte di Legno</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/Tappa_20-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-20-passa-del-tonale/</string>
+		<key>distance</key>
+		<real>178</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>19</integer>
+		<key>name</key>
+		<string>Brescia → Aprica</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC114905398-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-19/</string>
+		<key>distance</key>
+		<real>195</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>Levico Terme → Brescia</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/Tappa_2-thumb1.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-18/</string>
+		<key>distance</key>
+		<integer>151</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>17</integer>
+		<key>name</key>
+		<string>Brunico → Pejo Terme</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC113662680-2.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/why-are-the-aussies-so-good/</string>
+		<key>distance</key>
+		<real>173</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>16</integer>
+		<key>name</key>
+		<string>S. Vigilio di Marebbe → Plan de Corones - TT</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC113238626.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/san-vigilio-di-marebbe-plan-de-corones/</string>
+		<key>distance</key>
+		<real>12.8</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>Mestre → Monte Zoncolan</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/giro10st15MC-_076-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/the-savage-monte-zoncolan/</string>
+		<key>distance</key>
+		<integer>222</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>Ferrara → Asolo</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC112417668-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-14-the-plot-begins-to-thicken/</string>
+		<key>distance</key>
+		<integer>201</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>Porto Recanati → Cesenatico</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC112157874-thumb.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-13/</string>
+		<key>distance</key>
+		<integer>222</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Città Sant&apos;Angelo → Porto Recanati</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC111655434.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/richie-pretty-in-pink/</string>
+		<key>distance</key>
+		<integer>191</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Lucera → L&apos;Aquila</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC111442359.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-11/</string>
+		<key>distance</key>
+		<integer>262</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Avellino → Bitonto</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC111199293.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-10/</string>
+		<key>distance</key>
+		<integer>230</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Frosinone → Cava de&apos; Tirreni</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC110784890.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-daussie/</string>
+		<key>distance</key>
+		<integer>188</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Chianciano Terme → Monte Terminillo</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC110536303.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-8/</string>
+		<key>distance</key>
+		<integer>189</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Carrara → Montalcino</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC1104105411.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-7/</string>
+		<key>distance</key>
+		<integer>220</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Fidenza → Carrara</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC110120955.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/go-lloydie/</string>
+		<key>distance</key>
+		<integer>166</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Novara → Novi Ligure</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC109933838.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-stage-5/</string>
+		<key>distance</key>
+		<integer>162</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>TTT Savigliano → Cuneo</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC109723294.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-stage-4-ttt/</string>
+		<key>distance</key>
+		<real>32.5</real>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Amsterdam → Middleburg</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC109410299.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giromania-stage-3/</string>
+		<key>distance</key>
+		<integer>224</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Amsterdam → Utrecht</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC109233128.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-ditalia-stage-2/</string>
+		<key>distance</key>
+		<integer>209</integer>
+	</dict>
+	<dict>
+		<key>index</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Time Trial</string>
+		<key>image</key>
+		<string>http://www.cyclingtipsblog.com/wp-content/uploads/2010/05/PIC109026271.jpg</string>
+		<key>link</key>
+		<string>http://www.cyclingtipsblog.com/2010/05/giro-prologue/</string>
+		<key>distance</key>
+		<real>8.4</real>
+	</dict>
+</array>
+</plist>

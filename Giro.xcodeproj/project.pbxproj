@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GiroAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GiroAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280420C1108EA07E000629CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280420C0108EA07E000629CD /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		BF8EE37911B310490029423A /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8EE37811B310490029423A /* Stage.m */; };
+		BF8EE37E11B310790029423A /* StageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8EE37D11B310790029423A /* StageTableViewController.m */; };
+		BF8EE38411B310B70029423A /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8EE38111B310B70029423A /* ContentController.m */; };
+		BF8EE38511B310B70029423A /* ContentLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8EE38311B310B70029423A /* ContentLoader.m */; };
+		BF8EE39611B315230029423A /* stages.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE39511B315230029423A /* stages.plist */; };
+		BFF3F62811B3B854006951D7 /* StageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF3F62711B3B854006951D7 /* StageTableViewController.xib */; };
+		BFF3F63311B3B8B0006951D7 /* StageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F63111B3B8B0006951D7 /* StageDetailViewController.m */; };
+		BFF3F63411B3B8B0006951D7 /* StageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF3F63211B3B8B0006951D7 /* StageDetailViewController.xib */; };
+		BFF3F66911B3B9D9006951D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF3F66811B3B9D9006951D7 /* QuartzCore.framework */; };
+		BFF3F67C11B3BA80006951D7 /* giro.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 280420B3108E9F58000629CD /* giro.xcdatamodel */; };
+		BFF3F70111B3BF25006951D7 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F70011B3BF25006951D7 /* ImageLoader.m */; };
+		BFF3F71D11B3BF5C006951D7 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F70D11B3BF5C006951D7 /* ASIAuthenticationDialog.m */; };
+		BFF3F71E11B3BF5C006951D7 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F70F11B3BF5C006951D7 /* ASIFormDataRequest.m */; };
+		BFF3F71F11B3BF5C006951D7 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F71111B3BF5C006951D7 /* ASIHTTPRequest.m */; };
+		BFF3F72011B3BF5C006951D7 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F71511B3BF5C006951D7 /* ASIInputStream.m */; };
+		BFF3F72111B3BF5C006951D7 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F71711B3BF5C006951D7 /* ASINetworkQueue.m */; };
+		BFF3F72211B3BF5C006951D7 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F71911B3BF5C006951D7 /* ASINSStringAdditions.m */; };
+		BFF3F72311B3BF5C006951D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3F71C11B3BF5C006951D7 /* Reachability.m */; };
+		BFF3F72B11B3BF94006951D7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF3F72A11B3BF94006951D7 /* CFNetwork.framework */; };
+		BFF3F72F11B3BF9E006951D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF3F72E11B3BF9E006951D7 /* SystemConfiguration.framework */; };
+		BFF3F73311B3BFA4006951D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF3F73211B3BFA4006951D7 /* MobileCoreServices.framework */; };
+		BFF3F73711B3BFAE006951D7 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF3F73611B3BFAE006951D7 /* libz.1.2.3.dylib */; };
+		BFF7000011B7EAA800308528 /* UISplitViewController+LeftRight.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7FFFD11B7EAA800308528 /* UISplitViewController+LeftRight.m */; };
+		BFF7FFA611B7027F00308528 /* StageArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7FFA411B7027F00308528 /* StageArticleViewController.m */; };
+		BFF7FFA711B7027F00308528 /* StageArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF7FFA511B7027F00308528 /* StageArticleViewController.xib */; };
+		BFF7FFFE11B7EAA800308528 /* NSArray+FirstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7FFF911B7EAA800308528 /* NSArray+FirstObject.m */; };
+		BFF7FFFF11B7EAA800308528 /* UINavigationController+Root.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF7FFFB11B7EAA800308528 /* UINavigationController+Root.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GiroAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiroAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GiroAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiroAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Giro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280420B3108E9F58000629CD /* giro.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = giro.xcdatamodel; path = ../giro.xcdatamodel; sourceTree = "<group>"; };
+		280420C0108EA07E000629CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Giro_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giro_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Giro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Giro-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BF8EE37711B310490029423A /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		BF8EE37811B310490029423A /* Stage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage.m; sourceTree = "<group>"; };
+		BF8EE37C11B310790029423A /* StageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageTableViewController.h; sourceTree = "<group>"; };
+		BF8EE37D11B310790029423A /* StageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageTableViewController.m; sourceTree = "<group>"; };
+		BF8EE38011B310B70029423A /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentController.h; sourceTree = "<group>"; };
+		BF8EE38111B310B70029423A /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
+		BF8EE38211B310B70029423A /* ContentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentLoader.h; sourceTree = "<group>"; };
+		BF8EE38311B310B70029423A /* ContentLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentLoader.m; sourceTree = "<group>"; };
+		BF8EE39511B315230029423A /* stages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stages.plist; sourceTree = "<group>"; };
+		BFF3F62711B3B854006951D7 /* StageTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StageTableViewController.xib; sourceTree = "<group>"; };
+		BFF3F63011B3B8B0006951D7 /* StageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageDetailViewController.h; sourceTree = "<group>"; };
+		BFF3F63111B3B8B0006951D7 /* StageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageDetailViewController.m; sourceTree = "<group>"; };
+		BFF3F63211B3B8B0006951D7 /* StageDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StageDetailViewController.xib; sourceTree = "<group>"; };
+		BFF3F66811B3B9D9006951D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFF3F6FF11B3BF25006951D7 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		BFF3F70011B3BF25006951D7 /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		BFF3F70C11B3BF5C006951D7 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		BFF3F70D11B3BF5C006951D7 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		BFF3F70E11B3BF5C006951D7 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		BFF3F70F11B3BF5C006951D7 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		BFF3F71011B3BF5C006951D7 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		BFF3F71111B3BF5C006951D7 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		BFF3F71211B3BF5C006951D7 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		BFF3F71311B3BF5C006951D7 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		BFF3F71411B3BF5C006951D7 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		BFF3F71511B3BF5C006951D7 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		BFF3F71611B3BF5C006951D7 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		BFF3F71711B3BF5C006951D7 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		BFF3F71811B3BF5C006951D7 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		BFF3F71911B3BF5C006951D7 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		BFF3F71A11B3BF5C006951D7 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		BFF3F71B11B3BF5C006951D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BFF3F71C11B3BF5C006951D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BFF3F72A11B3BF94006951D7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFF3F72E11B3BF9E006951D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFF3F73211B3BFA4006951D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFF3F73611B3BFAE006951D7 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		BFF7FFA311B7027F00308528 /* StageArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageArticleViewController.h; sourceTree = "<group>"; };
+		BFF7FFA411B7027F00308528 /* StageArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageArticleViewController.m; sourceTree = "<group>"; };
+		BFF7FFA511B7027F00308528 /* StageArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StageArticleViewController.xib; sourceTree = "<group>"; };
+		BFF7FFF811B7EAA800308528 /* NSArray+FirstObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FirstObject.h"; sourceTree = "<group>"; };
+		BFF7FFF911B7EAA800308528 /* NSArray+FirstObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FirstObject.m"; sourceTree = "<group>"; };
+		BFF7FFFA11B7EAA800308528 /* UINavigationController+Root.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Root.h"; sourceTree = "<group>"; };
+		BFF7FFFB11B7EAA800308528 /* UINavigationController+Root.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Root.m"; sourceTree = "<group>"; };
+		BFF7FFFC11B7EAA800308528 /* UISplitViewController+LeftRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+LeftRight.h"; sourceTree = "<group>"; };
+		BFF7FFFD11B7EAA800308528 /* UISplitViewController+LeftRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+LeftRight.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				280420C1108EA07E000629CD /* CoreData.framework in Frameworks */,
+				BFF3F66911B3B9D9006951D7 /* QuartzCore.framework in Frameworks */,
+				BFF3F72B11B3BF94006951D7 /* CFNetwork.framework in Frameworks */,
+				BFF3F72F11B3BF9E006951D7 /* SystemConfiguration.framework in Frameworks */,
+				BFF3F73311B3BFA4006951D7 /* MobileCoreServices.framework in Frameworks */,
+				BFF3F73711B3BFAE006951D7 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF8EE37F11B3108E0029423A /* Common */,
+				BF8EE37A11B310510029423A /* Left Hand Pane */,
+				BF8EE37B11B310560029423A /* Right Hand Pane */,
+				1D3623240D0F684500981E51 /* GiroAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GiroAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Giro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				BFF3F70A11B3BF5C006951D7 /* Vendor */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Giro_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Giro-Info.plist */,
+				BF8EE39511B315230029423A /* stages.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				280420C0108EA07E000629CD /* CoreData.framework */,
+				BFF3F66811B3B9D9006951D7 /* QuartzCore.framework */,
+				BFF3F72A11B3BF94006951D7 /* CFNetwork.framework */,
+				BFF3F72E11B3BF9E006951D7 /* SystemConfiguration.framework */,
+				BFF3F73211B3BFA4006951D7 /* MobileCoreServices.framework */,
+				BFF3F73611B3BFAE006951D7 /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8EE37211B30F470029423A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				280420B3108E9F58000629CD /* giro.xcdatamodel */,
+				BF8EE37711B310490029423A /* Stage.h */,
+				BF8EE37811B310490029423A /* Stage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BF8EE37A11B310510029423A /* Left Hand Pane */ = {
+			isa = PBXGroup;
+			children = (
+				BF8EE37C11B310790029423A /* StageTableViewController.h */,
+				BF8EE37D11B310790029423A /* StageTableViewController.m */,
+				BFF3F62711B3B854006951D7 /* StageTableViewController.xib */,
+			);
+			name = "Left Hand Pane";
+			sourceTree = "<group>";
+		};
+		BF8EE37B11B310560029423A /* Right Hand Pane */ = {
+			isa = PBXGroup;
+			children = (
+				BFF3F63011B3B8B0006951D7 /* StageDetailViewController.h */,
+				BFF3F63111B3B8B0006951D7 /* StageDetailViewController.m */,
+				BFF3F63211B3B8B0006951D7 /* StageDetailViewController.xib */,
+				BFF7FFA311B7027F00308528 /* StageArticleViewController.h */,
+				BFF7FFA411B7027F00308528 /* StageArticleViewController.m */,
+				BFF7FFA511B7027F00308528 /* StageArticleViewController.xib */,
+			);
+			name = "Right Hand Pane";
+			sourceTree = "<group>";
+		};
+		BF8EE37F11B3108E0029423A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7FFF711B7EA7900308528 /* Extensions */,
+				BF8EE37211B30F470029423A /* Models */,
+				BF8EE38011B310B70029423A /* ContentController.h */,
+				BF8EE38111B310B70029423A /* ContentController.m */,
+				BF8EE38211B310B70029423A /* ContentLoader.h */,
+				BF8EE38311B310B70029423A /* ContentLoader.m */,
+				BFF3F6FF11B3BF25006951D7 /* ImageLoader.h */,
+				BFF3F70011B3BF25006951D7 /* ImageLoader.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BFF3F70A11B3BF5C006951D7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BFF3F70B11B3BF5C006951D7 /* asi-http-request */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		BFF3F70B11B3BF5C006951D7 /* asi-http-request */ = {
+			isa = PBXGroup;
+			children = (
+				BFF3F70C11B3BF5C006951D7 /* ASIAuthenticationDialog.h */,
+				BFF3F70D11B3BF5C006951D7 /* ASIAuthenticationDialog.m */,
+				BFF3F70E11B3BF5C006951D7 /* ASIFormDataRequest.h */,
+				BFF3F70F11B3BF5C006951D7 /* ASIFormDataRequest.m */,
+				BFF3F71011B3BF5C006951D7 /* ASIHTTPRequest.h */,
+				BFF3F71111B3BF5C006951D7 /* ASIHTTPRequest.m */,
+				BFF3F71211B3BF5C006951D7 /* ASIHTTPRequestConfig.h */,
+				BFF3F71311B3BF5C006951D7 /* ASIHTTPRequestDelegate.h */,
+				BFF3F71411B3BF5C006951D7 /* ASIInputStream.h */,
+				BFF3F71511B3BF5C006951D7 /* ASIInputStream.m */,
+				BFF3F71611B3BF5C006951D7 /* ASINetworkQueue.h */,
+				BFF3F71711B3BF5C006951D7 /* ASINetworkQueue.m */,
+				BFF3F71811B3BF5C006951D7 /* ASINSStringAdditions.h */,
+				BFF3F71911B3BF5C006951D7 /* ASINSStringAdditions.m */,
+				BFF3F71A11B3BF5C006951D7 /* ASIProgressDelegate.h */,
+				BFF3F71B11B3BF5C006951D7 /* Reachability.h */,
+				BFF3F71C11B3BF5C006951D7 /* Reachability.m */,
+			);
+			path = "asi-http-request";
+			sourceTree = "<group>";
+		};
+		BFF7FFF711B7EA7900308528 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7FFF811B7EAA800308528 /* NSArray+FirstObject.h */,
+				BFF7FFF911B7EAA800308528 /* NSArray+FirstObject.m */,
+				BFF7FFFA11B7EAA800308528 /* UINavigationController+Root.h */,
+				BFF7FFFB11B7EAA800308528 /* UINavigationController+Root.m */,
+				BFF7FFFC11B7EAA800308528 /* UISplitViewController+LeftRight.h */,
+				BFF7FFFD11B7EAA800308528 /* UISplitViewController+LeftRight.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Giro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Giro" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giro;
+			productName = Giro;
+			productReference = 1D6058910D05DD3D006BFB54 /* Giro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Giro" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Giro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				BF8EE39611B315230029423A /* stages.plist in Resources */,
+				BFF3F62811B3B854006951D7 /* StageTableViewController.xib in Resources */,
+				BFF3F63411B3B8B0006951D7 /* StageDetailViewController.xib in Resources */,
+				BFF7FFA711B7027F00308528 /* StageArticleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF3F67C11B3BA80006951D7 /* giro.xcdatamodel in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GiroAppDelegate.m in Sources */,
+				BF8EE37911B310490029423A /* Stage.m in Sources */,
+				BF8EE37E11B310790029423A /* StageTableViewController.m in Sources */,
+				BF8EE38411B310B70029423A /* ContentController.m in Sources */,
+				BF8EE38511B310B70029423A /* ContentLoader.m in Sources */,
+				BFF3F63311B3B8B0006951D7 /* StageDetailViewController.m in Sources */,
+				BFF3F70111B3BF25006951D7 /* ImageLoader.m in Sources */,
+				BFF3F71D11B3BF5C006951D7 /* ASIAuthenticationDialog.m in Sources */,
+				BFF3F71E11B3BF5C006951D7 /* ASIFormDataRequest.m in Sources */,
+				BFF3F71F11B3BF5C006951D7 /* ASIHTTPRequest.m in Sources */,
+				BFF3F72011B3BF5C006951D7 /* ASIInputStream.m in Sources */,
+				BFF3F72111B3BF5C006951D7 /* ASINetworkQueue.m in Sources */,
+				BFF3F72211B3BF5C006951D7 /* ASINSStringAdditions.m in Sources */,
+				BFF3F72311B3BF5C006951D7 /* Reachability.m in Sources */,
+				BFF7FFA611B7027F00308528 /* StageArticleViewController.m in Sources */,
+				BFF7FFFE11B7EAA800308528 /* NSArray+FirstObject.m in Sources */,
+				BFF7FFFF11B7EAA800308528 /* UINavigationController+Root.m in Sources */,
+				BFF7000011B7EAA800308528 /* UISplitViewController+LeftRight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Giro_Prefix.pch;
+				INFOPLIST_FILE = "Giro-Info.plist";
+				PRODUCT_NAME = Giro;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Giro_Prefix.pch;
+				INFOPLIST_FILE = "Giro-Info.plist";
+				PRODUCT_NAME = Giro;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Giro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Giro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

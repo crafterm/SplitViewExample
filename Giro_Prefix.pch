@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'Giro' target in the 'Giro' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_2
+#warning "This project uses features only available in iPhone SDK 3.2 and later."
+#endif
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "Stage.h"
+
+#import "NSArray+FirstObject.h"
+#import "UISplitViewController+LeftRight.h"
+#import "UINavigationController+Root.h"
+
+#import "ASIHTTPRequest.h"
+
+#endif
