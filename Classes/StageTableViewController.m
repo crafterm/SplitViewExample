@@ -92,7 +92,7 @@
 
     Stage * stage = [self.stageResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = stage.name;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"Stage %@ 148 kms", stage.index];
+    cell.detailTextLabel.text = stage.formattedDistance;
 
     return cell;
 }
