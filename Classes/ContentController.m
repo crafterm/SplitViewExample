@@ -78,14 +78,14 @@
     [fetchRequest setEntity:entity];
 
     NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"index" ascending:YES];
-    NSArray * sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+    NSArray * sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [sortDescriptor release];
     [fetchRequest setSortDescriptors:sortDescriptors];
-    [sortDescriptors release];
 
-    NSFetchedResultsController * controller = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
+    NSFetchedResultsController * controller = [[[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
                                                                                    managedObjectContext:self.managedObjectContext
                                                                                      sectionNameKeyPath:nil
-                                                                                              cacheName:entityName];
+                                                                                              cacheName:entityName] autorelease];
 
     NSError * error;
     BOOL success = [controller performFetch:&error];
